@@ -1,26 +1,15 @@
 import Footer from './Components/Footer';
-import logo from './logo.svg';
+import Header from './Components/Header';
 import './Styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Probando again
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
       <div>
-        <Footer></Footer>
+        <Header></Header>
+      </div>
+      <div>
+        <Footer className="footer"></Footer>
       </div>
     </div>
   );
