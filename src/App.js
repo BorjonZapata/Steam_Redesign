@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Probando cambios y funcionamiento de gitSHIT
+          Probando Github en computadora principal
         </p>
         <a
           className="App-link"
