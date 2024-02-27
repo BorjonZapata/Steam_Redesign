@@ -17,7 +17,7 @@ function Header() {
         <input type="text" placeholder="Search.."></input>
         <DropDownBtn BtnText="Filters" onClick={toggleVisibility} />
         <LibraryFilters isVisible={isVisible} />
-        <button >Activate a Product</button>
+        <button>Activate a Product</button>
         <button>Add a non-Steam Game</button>
       </header>
     );

@@ -4,12 +4,15 @@ footer {
   margin-top: auto;
   padding: 8px;
 }
-
-.DropdownButton{
-  display:inline;
-  z-index: 1;
+.noJumpDiv{
+  display: inline
 }
-
-.LibraryFiltersCss{
-  z-index: 2;
+.dropdown {
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0px 4px 0px 0px;
+  list-style: none;
+  position:absolute;
+  top:0;
 }
