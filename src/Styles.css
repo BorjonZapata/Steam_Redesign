@@ -5,3 +5,11 @@ footer {
   padding: 8px;
 }
 
+.DropdownButton{
+  display:inline;
+  z-index: 1;
+}
+
+.LibraryFiltersCss{
+  z-index: 2;
+}
