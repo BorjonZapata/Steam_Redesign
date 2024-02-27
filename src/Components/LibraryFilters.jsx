@@ -5,7 +5,7 @@ function LibraryFilters(props) {
       <div className='noJumpDiv'>
         {props.isVisible ? (
           <dl className='dropdown'>
-            <div>
+            <div className='dropdwnDiv'>
               <dt>Type</dt>
                 <dd>Games</dd>
                 <dd>Software</dd>
@@ -22,7 +22,7 @@ function LibraryFilters(props) {
                 <dd>Played</dd>
                 <dd>Unplayed</dd>
             </div>
-            <div>
+            <div className='dropdwnDiv'>
               <dt>Hardware Support</dt>
                 <dd>Controllers (Full)</dd>
                 <dd>Controllers (Partial)</dd>
@@ -37,7 +37,7 @@ function LibraryFilters(props) {
               <dt>Store Tags</dt>
                 <dd><input type="text" placeholder="Search for a tag"></input></dd>
             </div>
-            <div>
+            <div className='dropdwnDiv'>
               <dt>Genre</dt>
                 <dd>Action</dd>
                 <dd>Adventure</dd>

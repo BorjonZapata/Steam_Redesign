@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  font-family: motiva, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 footer {
   background-color: #808080;
   text-align: right;
@@ -6,13 +15,26 @@ footer {
 }
 .noJumpDiv{
   display: inline
+  
 }
 .dropdown {
   text-align: left;
   display: inline-block;
   margin: 0;
-  padding: 0px 4px 0px 0px;
   list-style: none;
   position:absolute;
   top:0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 15px;
+  background: #0E141B;
+  border-radius: 5px;
+  color: #F3F3F3;
+}
+
+.dropdwnDiv{
+  display: inline-block;
+  
 }
