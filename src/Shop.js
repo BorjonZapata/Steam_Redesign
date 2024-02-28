@@ -1,20 +1,21 @@
 import Header from './Components/Header';
-import Library from './Components/Library';
+import ShopContent from './Components/ShopContent';
 import './Styles.css';
 
-function App() {
+function Shop() {
   
   return (
     <div>
+      
       <div>
         <Header></Header>
       </div>
       <div>
-        <Library></Library>
+        <ShopContent></ShopContent>
       </div>
-     
+    
     </div>
   );
 }
 
-export default App;
+export default Shop;
