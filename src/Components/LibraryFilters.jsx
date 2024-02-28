@@ -6,7 +6,7 @@ function LibraryFilters(props) {
         {props.isVisible ? (
           <dl className='dropdown'>
             <div className='dropdwnDiv'>
-              <dt >Type</dt>
+              <dt>Type</dt>
                 <dd>Games</dd>
                 <dd>Software</dd>
                 <dd>Tools</dd>

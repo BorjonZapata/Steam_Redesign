@@ -38,7 +38,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
+  padding: 5px;
   gap: 15px;
   background: #0E141B;
   border-radius: 5px;
@@ -47,16 +47,19 @@ footer {
 
 .dropdwnDiv{
   display: inline-block;
+  padding: 20px;
 }
 
 dt{
   font-family: 'Motiva Sans';
   font-style: normal;
   font-weight: 700;
+  font-size: 16px;
   }
   
   dd{
     font-family: 'Motiva Sans';
     font-style: normal;
     font-weight: 400;
+    font-size: 12px;
     }
