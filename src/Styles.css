@@ -18,11 +18,12 @@ body {
   font-weight: 400;
 }
 
-footer {
-  background-color: #808080;
-  text-align: right;
+.footer {
+  background-color: #1E2329;
+  height: 325px;
   margin-top: auto;
   padding: 8px;
+  position: relative;
 }
 .noJumpDiv{
   display: inline
@@ -63,3 +64,103 @@ dt{
     font-weight: 400;
     font-size: 12px;
     }
+  .ClientStyle{
+    background: #0E141B;
+  }
+    
+  .ClientButton{
+    background-color: transparent;
+    color: #F3F3F3;
+    border: transparent;
+    font-family: 'Motiva Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 24px;
+  }
+  .ClientButton:hover{
+    color: #66C0F4;
+  }
+  .HeaderButton{
+    background-color: transparent;
+    color: #F3F3F3;
+    border: transparent;
+    font-family: 'Motiva Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+  .HeaderButton:hover{
+    background-color: #4B619B ;
+    border-radius: 3%;
+  }
+
+  .LibraryHeader{
+    background-color: #212B45 ;
+    padding: 5px;
+  }
+
+  .input1{
+    background-color: rgba(14, 20, 27, 0.2);
+    border: none;
+    color: #4B619B;
+    height: 30px;
+    font-family: 'Motiva Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .footerdiv1{
+    position:absolute;    
+    left: 45%;
+    top: 10%;
+  }
+  .footerdiv2{
+    position: absolute;    
+    left: 60%;
+    top: 10%;
+  }
+ 
+  .footerButton{
+    background-color: transparent;
+    border: none;
+    font-family: 'Motiva Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F3F3F3;
+    text-align: left;
+    padding: 5px;
+    width: auto;
+  }
+  .trademarkDiv{
+    height: 76px;
+    width: 367px;
+    font-family: 'Motiva Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #76808C;
+    position:absolute;    
+    top:36%;
+    left: 25%;
+    
+  }
+.footerList{
+  list-style-type:none;
+  
+}
+
+.LibraryPlaceholder{
+  height: 750px;
+  width: 100%;
+  background: linear-gradient(90deg, #1E2329 0%, rgba(37, 43, 51, 0.28) 99.99%, rgba(38, 44, 52, 0) 100%);
+  
+}
+   
+
+
+
+

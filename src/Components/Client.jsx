@@ -1,14 +1,13 @@
 function Client() {
     return (
-        <div>
-            <button>Store</button>
-            <button>Community</button>
-            <button>Profile</button>
-            <button>Library</button>
-            <button>Downloads</button>
-            <button>Store</button>
+        <div className="ClientStyle">
+            <button className="ClientButton">Store</button>
+            <button className="ClientButton">Community</button>
+            <button className="ClientButton">Profile</button>
+            <button className="ClientButton">Library</button>
+            <button className="ClientButton">Downloads</button>
+            <button className="ClientButton">Store</button>
         </div>
-
     );
   }
   export default Client;

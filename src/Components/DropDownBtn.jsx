@@ -1,7 +1,7 @@
 import '../Styles.css';
 function DropDownBtn(props) {
     return (
-      <button onClick={props.onClick}>
+      <button className="HeaderButton" onClick={props.onClick}>
         {props.BtnText}
       </button>
     );

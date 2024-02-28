@@ -10,15 +10,15 @@ function Header() {
   };
 
     return (
-      <header>
-        <button>Home</button>
-        <button>Collections</button>
-        <button>News and Updates</button>
-        <input type="text" placeholder="Search.."></input>
+      <header className="LibraryHeader">
+        <button className="HeaderButton">Home</button>
+        <button className="HeaderButton">Collections</button>
+        <button className="HeaderButton">News and Updates</button>
+        <input className="input1" type="text" placeholder="Search.."></input>
         <DropDownBtn BtnText="Filters" onClick={toggleVisibility} />
         <LibraryFilters isVisible={isVisible} />
-        <button>Activate a Product</button>
-        <button>Add a non-Steam Game</button>
+        <button className="HeaderButton">Activate a Product</button>
+        <button className="HeaderButton">Add a non-Steam Game</button>
       </header>
     );
   }

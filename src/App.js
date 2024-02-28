@@ -1,6 +1,7 @@
 import Client from './Components/Client';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
+import Library from './Components/Library';
 import './Styles.css';
 
 function App() {
@@ -14,7 +15,10 @@ function App() {
         <Header></Header>
       </div>
       <div>
-        <Footer className="footer"></Footer>
+        <Library></Library>
+      </div>
+      <div>
+        <Footer ></Footer>
       </div>
     </div>
   );
