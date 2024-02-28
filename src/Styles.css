@@ -1,10 +1,21 @@
+@font-face{
+  font-family: Motiva Sans;
+  src: url(../public/fonts/MotivaSansRegular.woff.ttf) format(truetype);
+  font-weight: 400; 
+  font-style: normal;
+}
+@font-face{
+  font-family: Motiva Sans;
+  src: url(../public/fonts/MotivaSansBold.woff.ttf) format(truetype);
+  font-weight: 700; 
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: motiva, sans-serif;
+  font-family: Motiva, sans-serif;
   font-style: normal;
-  font-weight: 200;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
 }
 
 footer {
@@ -36,5 +47,16 @@ footer {
 
 .dropdwnDiv{
   display: inline-block;
-  
 }
+
+dt{
+  font-family: 'Motiva Sans';
+  font-style: normal;
+  font-weight: 700;
+  }
+  
+  dd{
+    font-family: 'Motiva Sans';
+    font-style: normal;
+    font-weight: 400;
+    }
