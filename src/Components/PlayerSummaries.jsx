@@ -45,15 +45,13 @@ function PlayerSummaries() {
             }
         ]
     }
-} 
+}
 
-Sin embargo, al inetentar hacer el fetch en mi servidor de prueba de react no se muestra la informacion del componennte, la terminal del navegador entrega el siguiente error: 
+Sin embargo, al inetentar hacer el fetch en mi servidor de prueba de react no se muestra la informacion del componennte, la terminal del navegador entrega el siguiente error:
 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=63F3B72409107F526DEB08F5935180C1&steamids=76561198145120478.
-(Reason: CORS header ‘Access-Control-Allow-Origin’ missing). 
+(Reason: CORS header ‘Access-Control-Allow-Origin’ missing).
 Segun lo que puedo investigar aqui: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSMissingAllowOrigin
-necesito hacer un cambio en la configuracion de mi servidor para que tenga la configuracion Access-Control-Allow-Origin: https://example.com de la direccion de la que quiero usar 
+necesito hacer un cambio en la configuracion de mi servidor para que tenga la configuracion Access-Control-Allow-Origin: https://example.com de la direccion de la que quiero usar
 mi api, sin embargo no puedo averiguar como implementar esto en mi proyecto.
 */}
 export default PlayerSummaries;
-
-
