@@ -4,10 +4,16 @@ function PlayerSummaries() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=63F3B72409107F526DEB08F5935180C1&steamids=76561198145120478')
+    fetch('http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=63F3B72409107F526DEB08F5935180C1&steamids=76561198145120478',
+    {
+      method: "GET",
+      headers: {
+        "Access-Control-Allow-Origin" : "http://api.steampowered.com"
+,
+      },
+    })
       .then(response => response.json())
       .then(data => setData(data))
-      .catch(error => console.error(error));
   }, []);
 
   return (
